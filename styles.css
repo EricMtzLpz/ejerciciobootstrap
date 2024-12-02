@@ -1,0 +1,92 @@
+.navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-text { font-size: 48px; }
+
+/* Paleta de Colores */
+
+body {
+    background-color: burlywood;
+    color: black; 
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand, .navbar-text {
+    color: goldenrod; 
+}
+
+.carousel-caption {
+    background-color: black (0, 0, 0, 0.5); 
+    color: white; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Hace que las flechas sean blancas */
+}
+
+button {
+    background-color: goldenrod;
+    color: black; /* Texto de botones negro oscuro */
+}
+
+/* Fuentes */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente para el texto */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive; /* Fuente para los títulos */
+}
+
+.navbar-text {
+    font-family: 'Lobster', cursive; 
+    font-size: 1.5rem;
+}
+
+/* Estilo para Tarjetas */
+
+.card {
+    border-radius: 15px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Animación suave al pasar el ratón */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+}
+
+.card-img-top, .card-img-bottom {
+    border-top-left-radius: 15px; /* Bordes redondeados de la imagen */
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    font-family: 'Lobster', cursive; /* Fuente para el título */
+    font-size: 1.75rem; /* Tamaño del título */
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif; /* Fuente para el texto */
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Color del botón */
+    border: none;
+    color: #1a1a1a; /* Color del texto del botón */
+}
+
+.card-body {
+    background-color: #f5f5f5; /* Fondo del cuerpo de la tarjeta */
+}
+
+.text-body-secondary {
+    color: #6c757d; /* Color del texto secundario */
+}
